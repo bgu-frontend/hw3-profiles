@@ -48,7 +48,7 @@ Implement a middleware to verify a user is logged in, before reaching the API en
 
 ## Implementation - Front
 1. for unauthenticated users:
-    1. create a "sign in" page: where a user can create an account.
+    1. create a "sign up" page: where a user can create an account.
     2. each user must have a username (fix: assume username unique identifier, won't be checked), password, email (unique identifier), and name. (Bonus: a photo, see below).
     3. create a  "log in" page with username/password.
     4. unauthenticated users can still see the public feed.
